@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/categorias")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin("https://moonlit-kringle-d82d5f.netlify.app")
 public class CategoriaController {
     @Autowired
     private CategoriaRepository repo;
