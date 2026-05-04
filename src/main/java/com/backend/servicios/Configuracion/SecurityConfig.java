@@ -53,7 +53,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.addAllowedOrigin("http://localhost:4200"); // Angular
-        config.addAllowedOrigin("https://TU-APP.netlify.app");
+        config.addAllowedOrigin("https://moonlit-kringle-d82d5f.netlify.app");
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
 
