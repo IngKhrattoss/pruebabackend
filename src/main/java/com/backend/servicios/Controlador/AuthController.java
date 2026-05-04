@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://moonlit-kringle-d82d5f.netlify.app")
 
 public class AuthController {
 
