@@ -17,6 +17,7 @@ public class WebConfig {
                         .allowedOriginPatterns("*")
                         .allowCredentials(true)
                         .allowedOrigins("http://localhost:4200")
+                        .addAllowedOrigin("https://moonlit-kringle-d82d5f.netlify.app");
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
 
